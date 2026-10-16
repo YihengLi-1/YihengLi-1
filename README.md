@@ -1,29 +1,27 @@
 # Hi, I'm Yiheng Li
 
-I'm a Computer Science student at Arizona State University. I build Python and TypeScript software for operational workflows, with a focus on API integrations, data validation, and useful AI tools.
+CS @ Arizona State University (4.0, President's Scholarship). I build **production AI agents, the evaluations that prove they work, and the backend systems underneath them**.
 
-## Selected projects
+- 🤖 **Production AI agents:** I build and run full-stack scheduling and AI-agent platforms used daily by 2 business clients (650+ appointments/month). The agent executes approved operations with human-in-the-loop approval and audit logs, with **94% end-to-end task success** across a 150-scenario regression suite, and cut manual follow-up time by **65%**.
+- 📊 **Grounded retrieval and evaluation:** at ASU's W. P. Carey School of Business, my evaluation framework (120 labeled queries) raised a RAG agent's **Recall@5 from 71% → 89%** and **grounded-answer accuracy from 76% → 92%**.
+- 🧠 **ML research:** fine-tuned an EEG foundation model that reaches **79.1% on people it has never seen vs. 54.9%** for a strong baseline. Technical report: [doi:10.5281/zenodo.23423535](https://doi.org/10.5281/zenodo.23423535)
+- ⚙️ **Backend:** as a backend intern at LEQISMART (Los Angeles), I cut MySQL query latency from **420 ms → 95 ms** and shipped 6 Spring Boot APIs with 35 integration tests.
 
-| Project | Problem and implementation | Explore |
+## Featured work
+
+| Project | What it shows | Stack |
 | --- | --- | --- |
-| **Shijia** | Connect community reservations, menu orders, payments, and staff operations. Next.js, PostgreSQL/Supabase, and Stripe. | [Code & setup](https://github.com/YihengLi-1/shijia-site) · [Application](https://shijia-site.vercel.app) |
-| **Horizon** | Model student registration, prerequisites, waitlists, and role-based access. NestJS, Next.js, PostgreSQL, and Prisma. | [Code & setup](https://github.com/YihengLi-1/horizon) · [Tests & CI](https://github.com/YihengLi-1/horizon/actions) |
-| **EEG motor-imagery decoding** | Compare EEGNet and pretrained LaBraM on subject-disjoint EEG data, including the effect of preprocessing and the limits of a single split. | [Results & methods](https://github.com/YihengLi-1/eeg-motor-imagery-decoding) |
+| [**forward-deployed-agent-lab**](https://github.com/YihengLi-1/forward-deployed-agent-lab) | Service-business agent with grounded bilingual answers and citations, MCP tools, human escalation, a synthetic evaluation harness, and a hardened Kubernetes deployment | FastAPI · MCP · Docker · Kubernetes |
+| [**eeg-motor-imagery-decoding**](https://github.com/YihengLi-1/eeg-motor-imagery-decoding) | Leakage-resistant, subject-disjoint study of LaBraM vs. EEGNet, replicated across 4 splits and extended to seizure detection (event F1 0.27 → 0.37) | PyTorch · LaBraM · EEGNet |
+| [**horizon**](https://github.com/YihengLi-1/horizon) | Multi-role student information system with concurrency-safe enrollment, waitlist auto-promotion, Playwright E2E tests, and Prometheus/Grafana monitoring | Next.js 15 · NestJS · PostgreSQL · Prisma |
+| [**shijia-site**](https://github.com/YihengLi-1/shijia-site) · [live](https://shijia-site.vercel.app) | Live reservation and donation app with Stripe Checkout, signed webhooks, idempotent checkout, and an admin risk dashboard | Next.js · Supabase · Stripe |
 
-For a software walkthrough, start with **Shijia** or **Horizon**. For experimental design and evaluation, start with **EEG**. Each repository describes its setup, available evidence, and remaining limitations.
+## Toolbox
 
-Horizon is an engineering project modeling academic workflows; it is not an official ASU system. The EEG results describe a research experiment, not a clinical application.
+Python · TypeScript · Java · SQL · PyTorch · LangGraph · RAG · MCP · FastAPI · Spring Boot · NestJS · Next.js · React · PostgreSQL · MySQL · Prisma · Docker · Kubernetes · GitHub Actions
 
-## Engineering interests
+## Looking for
 
-- Turning user workflows into explicit data models, API behavior, and review steps.
-- Handling repeated requests, inconsistent records, and recoverable failures.
-- Integrating AI into bounded workflows and checking its outputs.
-
-## Technologies used across these projects
-
-Python · TypeScript · JavaScript · SQL · Next.js · NestJS · PostgreSQL · Prisma · Supabase · REST APIs · PyTorch
-
-## Connect
+**Summer 2027 internships** in AI / ML engineering, applied science, and backend or full-stack software engineering.
 
 [LinkedIn](https://www.linkedin.com/in/yiheng-li-0bb984337) · [Email](mailto:yihengli23@gmail.com)
